@@ -1,2 +1,2 @@
-FROM ubuntu
+FROM ubuntu:rolling
 RUN apt update && apt install -y iptables

@@ -12,7 +12,7 @@
     "express": "^4.16.4",
     "hbs": "^4.0.4",
     "redis": "^2.8.0",
-    "redis-commands": "^1.2.0",
+    "redis-commands": "^1.7.0",
     "redis-parser": "^2.6.0",
     "secure-random-string": "^1.1.0"
   }

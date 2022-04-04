@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "author": "",
   "license": "ISC",
@@ -14,6 +16,8 @@
     "redis": "^2.8.0",
     "redis-commands": "^1.2.0",
     "redis-parser": "^2.6.0",
-    "secure-random-string": "^1.1.0"
-  }
+    "secure-random-string": "^1.1.0",
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }
